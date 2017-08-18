@@ -20,7 +20,7 @@
  */
 #define I2C_ADRESS 0x20   // Adresse I2C du module
 #define TEMP_ALARM 2.00F  // Alarme de température
-#define Cniv3 2           // Niveau 2%
+#define Cniv3 2           // Niveau 3%
 #define Cniv10 3          // Niveau 10%
 #define Cniv20 4          // Niveau 20%
 #define Cniv30 5          // Niveau 30%
