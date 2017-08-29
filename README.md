@@ -1,9 +1,9 @@
 # WaterLevel
-**Gestion du niveau d'eau dans une cuve**  
-*Juin 2017*
-
 [![Mode test](https://img.shields.io/github/release/svacher/WaterLevel.svg)]()
 [![Mode test](https://img.shields.io/badge/dev-en_cours-orange.svg)]()
+
+**Gestion du niveau d'eau dans une cuve**  
+*Juin 2017*
 
 ## Besoin
 * Mesurer le niveau de remplissage de la cuve du récupérateur d'eau de pluie
