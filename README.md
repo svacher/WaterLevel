@@ -2,6 +2,8 @@
 **Gestion du niveau d'eau dans une cuve**  
 *Juin 2017*
 
+[![Mode test](https://img.shields.io/badge/dev-en_cours-orange.svg)]()
+
 ## Besoin
 * Mesurer le niveau de remplissage de la cuve du récupérateur d'eau de pluie
 * Mesurer la température de l'eau pour éviter le gel (cassure de la cuve et des capteurs)
