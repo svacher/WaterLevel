@@ -2,6 +2,7 @@
 **Gestion du niveau d'eau dans une cuve**  
 *Juin 2017*
 
+[![Mode test](https://img.shields.io/github/release/svacher/WaterLevel/all.svg)]()
 [![Mode test](https://img.shields.io/badge/dev-en_cours-orange.svg)]()
 
 ## Besoin
