@@ -53,6 +53,9 @@ L'idéal est d'insérer le tout dans un tube PVC avec des petits trous en bas af
 Le circuit doit être protégé dans un boitier le plus étanche possible avec une bonne visibilité de l'état de la led.
 
 ## Electronique
+R2 permet l'utilisation de la programmation ICSP tout en activant le µC en fonctionnement normal.  
+La led est branchée en logique inversée pour permettre le bon fonctionnement de SCK (ISCP) et au µC de fournir moins de courant.
+
 Voir Schéma.fzz ([Fritzing](http://fritzing.org/download/))
 
 ## Programmation
@@ -66,8 +69,6 @@ Voir Programme.ino ([Arduino](https://www.arduino.cc/en/Main/Software))
 2C limite la longueur du câble à 50 cm...
 
 ## Mémo
-ID du système en I2C : 0x20
-
-Consigne d'alarme : 2°C
-
+ID du système en I2C : **0x20**  
+Consigne d'alarme : **2°C**  
 En cas de gel, le mieux est de vider la cuve, sinon d'enlever les capteurs.
