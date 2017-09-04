@@ -62,11 +62,19 @@ Voir [Schéma.fzz](https://github.com/svacher/WaterLevel/blob/master/Schéma.fzz
 Voir [Programme.ino](https://github.com/svacher/WaterLevel/blob/master/Programme.ino) ([Arduino](https://www.arduino.cc/en/Main/Software))
 
 ## Coût
+Désignation | Montant
+-- | --
+Atmega328P | 0,00 € (échantillon ATMEL)
+Capteurs de niveau d'eau (x11) | 11,10 €
+Capteurs de température (x2) | 0,00 € (échantillon Analog Devices)
+Led + résistances + condensateur + connecteurs | 1,00 € (+ stock)
+Cornière en alu + Tube PVC + plot de béton | 7,05 €
+Total | 19,15 €
 
 ## Réalisation
 
 ## Conclusion
-2C limite la longueur du câble à 50 cm...
+I2C limite la longueur du câble à 50 cm...
 
 ## Mémo
 ID du système en I2C : **0x20**  
