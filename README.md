@@ -56,10 +56,10 @@ Le circuit doit être protégé dans un boitier le plus étanche possible avec u
 R2 permet l'utilisation de la programmation ICSP tout en activant le µC en fonctionnement normal.  
 La led est branchée en logique inversée pour permettre le bon fonctionnement de SCK (ISCP) et au µC de fournir moins de courant.
 
-Voir Schéma.fzz ([Fritzing](http://fritzing.org/download/))
+Voir [Schéma.fzz](https://github.com/svacher/WaterLevel/blob/master/Schéma.fzz) ([Fritzing](http://fritzing.org/download/))
 
 ## Programmation
-Voir Programme.ino ([Arduino](https://www.arduino.cc/en/Main/Software))
+Voir [Programme.ino](https://github.com/svacher/WaterLevel/blob/master/Programme.ino) ([Arduino](https://www.arduino.cc/en/Main/Software))
 
 ## Coût
 
