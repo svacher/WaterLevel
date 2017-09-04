@@ -46,17 +46,17 @@ Les capteurs de niveaux sont fixés sur une cornière en aluminium (angle avec 1
 
 Le capteur de température y est aussi fixé, le plus bas possible afin d'être toujours dans l'eau. Il sera aussi noyé dans de la colle ou autre pour n'avoir aucune partie électrique dans l'eau (court-circuit, électrolyse). Une 2ème sonde de température est placée avec le circuit.
 
-Toutes les soudures immergées seront protégées par du la gaine thermo-rétractable.
+Toutes les soudures immergées seront protégées par de la gaine thermo-rétractable.
 
 L'idéal est d'insérer le tout dans un tube PVC avec des petits trous en bas afin d'éviter les saletés sur les capteurs. Un poids doit aussi maintenir le tout vertical et au fond de la cuve. Un plot en béton coulé à la base du tube en PVC semble une bonne solution.
 
 Le circuit doit être protégé dans un boitier le plus étanche possible avec une bonne visibilité de l'état de la led.
 
 ## Electronique
-Voir Schéma.fzz
+Voir Schéma.fzz ([Fritzing](http://fritzing.org/download/))
 
 ## Programmation
-Voir Programme.ino
+Voir Programme.ino ([Arduino](https://www.arduino.cc/en/Main/Software))
 
 ## Coût
 
