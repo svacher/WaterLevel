@@ -41,3 +41,34 @@ Commandes I2C :
 Une led s'allume dès que la température de l'eau est inférieure à la consigne d'alarme, de manière indépendante, c'est-à-dire sans contrôle du maître I2C.
 
 @bonus : voir plus tard, pour pouvoir modifier la consigne d'alarme de température par commande I2C avec stockage en EEPROM. Gérer aussi une notion de températures minis et maxis en EEPROM.
+
+## Mécanique
+Les capteurs de niveaux sont fixés sur une cornière en aluminium (angle avec 1 côté découpé puis plié et percé pour fixer les capteurs), espacés tous les 9cm. Chaque capteur représente 10% du niveau, plus un supplémentaire à environ 3%, qui indique que la cuve est vide.
+
+Le capteur de température y est aussi fixé, le plus bas possible afin d'être toujours dans l'eau. Il sera aussi noyé dans de la colle ou autre pour n'avoir aucune partie électrique dans l'eau (court-circuit, électrolyse). Une 2ème sonde de température est placée avec le circuit.
+
+Toutes les soudures immergées seront protégées par du la gaine thermo-rétractable.
+
+L'idéal est d'insérer le tout dans un tube PVC avec des petits trous en bas afin d'éviter les saletés sur les capteurs. Un poids doit aussi maintenir le tout vertical et au fond de la cuve. Un plot en béton coulé à la base du tube en PVC semble une bonne solution.
+
+Le circuit doit être protégé dans un boitier le plus étanche possible avec une bonne visibilité de l'état de la led.
+
+## Electronique
+Voir Schéma.fzz
+
+## Programmation
+Voir Programme.ino
+
+## Coût
+
+## Réalisation
+
+## Conclusion
+2C limite la longueur du câble à 50 cm...
+
+## Mémo
+ID du système en I2C : 0x20
+
+Consigne d'alarme : 2°C
+
+En cas de gel, le mieux est de vider la cuve, sinon d'enlever les capteurs.
