@@ -50,9 +50,11 @@ Toutes les soudures immergées seront protégées par de la gaine thermo-rétrac
 
 L'idéal est d'insérer le tout dans un tube PVC avec des petits trous en bas afin d'éviter les saletés sur les capteurs. Un poids doit aussi maintenir le tout vertical et au fond de la cuve. Un plot en béton coulé à la base du tube en PVC semble une bonne solution.
 
-Le circuit doit être protégé dans un boitier le plus étanche possible avec une bonne visibilité de l'état de la led.
+Le circuit doit être protégé dans un boitier le plus étanche possible avec une bonne visibilité de l'état de la led.  
+![Pliage](https://github.com/svacher/WaterLevel/blob/master/docs/image1.png)
 
 ## Electronique
+![Schéma](https://github.com/svacher/WaterLevel/blob/master/docs/image4.png)  
 R2 permet l'utilisation de la programmation ICSP tout en activant le µC en fonctionnement normal.  
 La led est branchée en logique inversée pour permettre le bon fonctionnement de SCK (ISCP) et au µC de fournir moins de courant.
 
@@ -72,6 +74,10 @@ Cornière en alu + Tube PVC + plot de béton | 7,05 €
 Total | 19,15 €
 
 ## Réalisation
+![Réalisation](https://github.com/svacher/WaterLevel/blob/master/docs/image3.png)
+![Réalisation](https://github.com/svacher/WaterLevel/blob/master/docs/image2.jpg)
+![Réalisation](https://github.com/svacher/WaterLevel/blob/master/docs/image5.jpg)
+![Réalisation](https://github.com/svacher/WaterLevel/blob/master/docs/image6.jpg)
 
 ## Conclusion
 I2C limite la longueur du câble à 50 cm...
